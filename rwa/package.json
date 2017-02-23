@@ -1,0 +1,25 @@
+{
+  "name": "rwa3",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:dev": "webpack-dev-server --port 5050 --content-base ./src"
+  },
+  "author": "arturas aleksandrovas",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "lodash": "^4.17.4",
+    "requestify": "^0.2.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
