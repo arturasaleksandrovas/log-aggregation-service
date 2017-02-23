@@ -33,3 +33,4 @@ To-do in the future
 3. Use GULP task runner for easier application handling
 4. Use express server on RWA for production environment
 5. Improve workers flow with auto-revive if something fails in between processes (kill worker -> start worker over again)
+6. Use redis for workers pool processing and job distribution
